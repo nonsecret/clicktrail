@@ -75,7 +75,3 @@ MIT licensed. This is an initial release, not Chrome Web Store published softwar
 Automated tests cover local capture messaging with mocked browser APIs, restricted-page rejection, step limits, standalone player progression/completion/restart and safe text serialization. JavaScript syntax checks pass. Real Chrome extension capture and visual browser QA have not been performed in this environment; verify with a non-sensitive page after loading unpacked.
 
 An example exported walkthrough is included at `docs/sample-walkthrough.html`.
-
-## PixelSeal companion tool
-
-[PixelSeal](pixelseal/README.md) is a separate local image attribution tool. Open `pixelseal/index.html` to embed a nearly invisible source record into a PNG and verify it using a secret key. This is an experimental lossless-PNG LSB implementation, not a resize/JPEG-resistant watermark or proof of ownership.
